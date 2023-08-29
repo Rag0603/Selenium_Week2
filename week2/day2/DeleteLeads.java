@@ -53,7 +53,7 @@ ChromeDriver driver = new ChromeDriver();
 		System.out.println("Record still exists"); 
 	}
     
-        
+        driver.close();
        
 	}
 }
